@@ -1,0 +1,71 @@
+@import '../base/colors';
+@import '../base/typography';
+
+header {
+  height: calc(100vh - 150px);
+
+  & .header-slider {
+    height: 90%;
+    background: url('../../img/slider-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+    & .slider-content {
+      width: 1200px;
+      height: 100%;
+      border: 2px solid red;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr;
+
+      // & .slider-content-image {}
+      // & .slider-content-text {
+      //   display: flex;
+      //   flex-direction: column;
+
+      //   h1 {
+      //     font-family: $font-primary;
+      //     font-weight: 900;
+      //     color: $background-color;
+      //   }
+      // }
+      & .slider-content-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        & h1 {
+          font-family: $font-primary;
+          font-weight: 700;
+          text-align: center;
+          color: #fff;
+        }
+
+        & .slider-cta {
+          display: flex;
+          justify-content: center;
+          padding-top: 3rem;
+        }
+      }
+    }
+  }
+
+  & .header-footer{
+    height: 10%;
+    background: $color-background;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & .scroll-down {
+      text-align: center;
+      font-size: 1.2rem;
+      color: $color-primary;
+
+      & i {
+        margin-right: 10px;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

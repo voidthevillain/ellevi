@@ -1,0 +1,133 @@
+nav.top-bar {
+  height: 150px;
+  padding: 0;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2); }
+
+nav .nav-content {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; }
+  nav .nav-content .nav-logo {
+    display: flex;
+    justify-content: center; }
+  nav .nav-content .nav-buttons-right {
+    display: flex;
+    justify-content: flex-end; }
+
+body {
+  font-family: "Roboto", sans-serif; }
+
+header {
+  height: calc(100vh - 150px); }
+  header .header-slider {
+    height: 90%;
+    background: url("../../img/slider-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center; }
+    header .header-slider .slider-content {
+      width: 1200px;
+      height: 100%;
+      border: 2px solid red;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr; }
+      header .header-slider .slider-content .slider-content-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; }
+        header .header-slider .slider-content .slider-content-text h1 {
+          font-family: "Roboto", sans-serif;
+          font-weight: 700;
+          text-align: center;
+          color: #fff; }
+        header .header-slider .slider-content .slider-content-text .slider-cta {
+          display: flex;
+          justify-content: center;
+          padding-top: 3rem; }
+  header .header-footer {
+    height: 10%;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    header .header-footer .scroll-down {
+      text-align: center;
+      font-size: 1.2rem;
+      color: #3c3c3c; }
+      header .header-footer .scroll-down i {
+        margin-right: 10px;
+        font-size: 1.5rem; }
+
+.button-group {
+  margin-bottom: 0; }
+  .button-group .button {
+    margin-right: 0; }
+    .button-group .button.btn-menu {
+      width: 109px;
+      height: 41px;
+      text-align: left;
+      margin-right: 5px;
+      padding-left: 0; }
+    .button-group .button.btn-menu-icon {
+      width: 41px;
+      height: 41px;
+      padding: 0.7rem 0.6rem;
+      color: #3c3c3c; }
+      .button-group .button.btn-menu-icon i {
+        font-size: 1rem; }
+    .button-group .button.button-primary {
+      background: #ad1b40; }
+      .button-group .button.button-primary.btn-products {
+        width: 109;
+        height: 41px;
+        text-align: left; }
+        .button-group .button.button-primary.btn-products:hover {
+          background: #d11f4c; }
+      .button-group .button.button-primary.btn-products-icon {
+        width: 41px;
+        height: 41px;
+        padding: 0.7rem 0.6rem;
+        background: #3c3c3c; }
+        .button-group .button.button-primary.btn-products-icon i {
+          font-size: 1rem; }
+      .button-group .button.button-primary.btn-slider {
+        width: 109;
+        height: 41px;
+        text-align: left;
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); }
+        .button-group .button.button-primary.btn-slider:hover {
+          background: #d11f4c; }
+      .button-group .button.button-primary.btn-slider-icon {
+        width: 41px;
+        height: 41px;
+        padding: 0.7rem 0.6rem;
+        background: #3c3c3c;
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2); }
+        .button-group .button.button-primary.btn-slider-icon i {
+          font-size: 1rem; }
+    .button-group .button.btn-fh {
+      height: 150px;
+      display: flex;
+      align-items: center; }
+      .button-group .button.btn-fh:hover {
+        background: #ad1b40;
+        color: #fff; }
+      .button-group .button.btn-fh.btn-lang i {
+        margin-left: 5px; }
+      .button-group .button.btn-fh.btn-user i {
+        font-size: 24px; }
+      .button-group .button.btn-fh.btn-cart i {
+        font-size: 24px; }
+
+body {
+  font-family: "Roboto", sans-serif; }

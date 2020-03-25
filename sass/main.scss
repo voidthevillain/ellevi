@@ -1,0 +1,121 @@
+@import './layout/navigation';
+@import './layout/header';
+@import './components/buttons';
+@import './base/typography'
+
+// $font-primary: 'Josefin Sans', sans-serif;
+
+// *,
+// *::after,
+// *::before {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: inherit;
+// }
+
+// html {
+//   font-size: 16px;
+// }
+
+// body {
+//   font-family: $font-primary;
+//   font-weight: 400;
+//   line-height: 1.7;
+//   color: $color-primary;
+//   // padding: 3rem;
+//   box-sizing: border-box;
+// }
+
+// nav {
+//   background: $color-accent;
+//   height: 150px;
+
+//   .nav-content {
+//     width: 1200px;
+//     height: 100%;
+//     background: $color-background;
+//     margin: 0 auto;
+//     padding: 0 16px;
+//     display: flex;
+//     justify-content: space-between;
+//   }
+
+//   .nav-buttons {
+//     width: 300px;
+//     height: 100%;
+//     display: flex;
+//     align-items: center;
+
+//     .button {
+//       width: 150px;
+//       height: 41px;
+//       background: #fff;
+//       display: flex;
+
+//       .button-icon {
+//         width: 41px;
+//         height: 41px;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+
+//         .icon {
+//           height: 24px;
+//           width: 24px;
+//           background: black;
+
+//           &.icon-products {
+//             background: $color-background;
+//           }
+//         }
+
+//         &.button-icon-products {
+//           background: $color-primary;
+//         }
+//       }
+
+//       .button-content {
+//         display: flex;
+//         align-items: center;
+//         padding-left: 10px;
+
+//         &.button-content-menu {
+//           background: $color-background;
+//           padding-right: 10px;
+
+//           a {
+//             color: $color-primary;
+//             text-decoration: none;
+//             padding-top: 4px;
+//           }
+//         }
+
+//         &.button-content-products {
+//           background: $color-accent;
+//           padding-right: 10px;
+
+//           a {
+//             color: white;
+//             text-decoration: none;
+//             padding-top: 4px;
+//           }
+//         }
+//       }
+//     }
+//   }
+
+//   .nav-logo {
+//     width: 300px;
+//     height: 100%;
+//     background: $color-background;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     .logo {
+//       width: 170px;
+//       height: 110px;
+
+//     }
+//   }
+// }
